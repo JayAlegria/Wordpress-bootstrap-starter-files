@@ -1,0 +1,14 @@
+{
+  "cSpell.ignoreWords": [
+    "avano"
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "styles/bootstrap/scss/**",
+    "**/node_modules/**",
+    ".vscode/**"
+  ],
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.includeItems": [
+    "styles/main.scss"
+  ]
+}
