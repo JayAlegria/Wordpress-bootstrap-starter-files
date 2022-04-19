@@ -1,0 +1,33 @@
+$inter: 'Inter', sans-serif;
+$notoSerif: 'Noto Serif', serif;
+
+body {
+    font-family: $inter;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h1, h2 {
+    font-family: $notoSerif;
+    font-weight: 700;
+}
+
+.heading {
+    font-family: $notoSerif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.sub-heading {
+    font-family: $inter;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.text-small {
+    font-size: 13px;
+}
+
+.text-muted {
+    color: #bebebe !important;
+}

@@ -1,4 +1,16 @@
+
+@use "./colors" as colors;
+
 $theme-colors: (
-    "primary": red,
-    "danger": yellow,
+    "primary": colors.$dusk,
+    "secondary": colors.$sunset,
 );
+
+$custom-colors: (
+    'beige': colors.$beige,
+    'sand': colors.$sand,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../styles/bootstrap/scss/bootstrap";
